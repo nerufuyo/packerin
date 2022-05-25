@@ -1,6 +1,6 @@
 # packerin
 
-A new Flutter project.
+PackerIn
 
 ## Getting Started
 
