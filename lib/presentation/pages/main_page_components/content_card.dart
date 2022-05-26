@@ -70,7 +70,7 @@ class ContentCard extends StatelessWidget {
                               size: 20,
                             ),
                             Text(
-                              'California, United States',
+                              'Greenland, United States',
                               style: TextStyle(
                                 color: Colors.grey.shade600,
                                 fontSize: 16,
