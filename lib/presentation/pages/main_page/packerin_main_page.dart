@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:packerin/presentation/pages/main_page_components/category_card.dart';
-import 'package:packerin/presentation/pages/main_page_components/content_card.dart';
-import 'package:packerin/presentation/pages/main_page_components/welcome_text.dart';
+import 'package:packerin/presentation/pages/main_page/components/category_card.dart';
+import 'package:packerin/presentation/pages/main_page/components/content_card.dart';
+import 'package:packerin/presentation/pages/main_page/components/welcome_text.dart';
 import 'package:packerin/presentation/widgets/header_widget.dart';
 
 class PackerinMainPage extends StatefulWidget {
@@ -26,7 +26,7 @@ class _PackerinMainPage extends State<PackerinMainPage> {
             gradient: LinearGradient(
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
-                colors: [Colors.white, Colors.grey.shade700])),
+                colors: [Colors.white, Colors.grey.shade300])),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

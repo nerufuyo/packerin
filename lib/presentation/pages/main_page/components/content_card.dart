@@ -10,7 +10,7 @@ class ContentCard extends StatelessWidget {
     return Row(
       children: [
         ClipRRect(
-          borderRadius: BorderRadius.circular(25),
+          borderRadius: BorderRadius.circular(30),
           child: InkWell(
             onTap: () {},
             child: Card(
@@ -22,7 +22,7 @@ class ContentCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(15),
                           child: Image.asset(
                             'assets/mountains.jpg',
                             width: 330,
@@ -34,7 +34,8 @@ class ContentCard extends StatelessWidget {
                           height: 10,
                         ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             const Text(
                               'Mountain Everest',
@@ -42,7 +43,7 @@ class ContentCard extends StatelessWidget {
                                   fontWeight: FontWeight.bold, fontSize: 20),
                             ),
                             const SizedBox(
-                              width: 100,
+                              width: 120,
                             ),
                             Row(
                               children: const [
