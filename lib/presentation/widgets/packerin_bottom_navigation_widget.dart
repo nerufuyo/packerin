@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:packerin/presentation/pages/packerin_favorite_page.dart';
 import 'package:packerin/presentation/pages/packerin_main_page.dart';
-import 'package:packerin/presentation/pages/search_page_packerin.dart';
+import 'package:packerin/presentation/pages/packerin_explore_page.dart';
+import 'package:packerin/presentation/pages/packerin_profile_page.dart';
 
 class PackerinBottomNavigationWidget extends StatefulWidget {
   const PackerinBottomNavigationWidget({Key? key}) : super(key: key);
@@ -16,9 +18,9 @@ class _PackerinBottomNavigationWidgetState
   int currentIndex = 0;
   final screens = [
     const PackerinMainPage(),
-    const GomuflixExploreScreen(),
-    const Center(child: Text('Favorite', style: TextStyle(fontSize: 20))),
-    const Center(child: Text('Account', style: TextStyle(fontSize: 20))),
+    const PackerinExplorePage(),
+    const PackerinFavoritePage(),
+    const PackerinProfilePage(),
   ];
 
   @override
@@ -41,7 +43,7 @@ class _PackerinBottomNavigationWidgetState
           BottomNavigationBarItem(icon: Icon(Icons.explore), label: 'Explore'),
           BottomNavigationBarItem(
               icon: Icon(Icons.favorite), label: 'Favorite'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Account')
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile')
         ],
         unselectedItemColor: Colors.black,
         selectedItemColor: Colors.blue,

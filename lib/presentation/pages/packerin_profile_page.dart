@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:packerin/presentation/widgets/packerin_header_widget.dart';
 
-class GomuflixExploreScreen extends StatefulWidget {
-  const GomuflixExploreScreen({Key? key}) : super(key: key);
-  static const routeName = '/packerin-explore';
+class PackerinProfilePage extends StatefulWidget {
+  const PackerinProfilePage({Key? key}) : super(key: key);
+  static const routeName = '/packerin-profile';
 
   @override
-  _GomuflixExploreScreenState createState() => _GomuflixExploreScreenState();
+  _PackerinProfilePageState createState() => _PackerinProfilePageState();
 }
 
-class _GomuflixExploreScreenState extends State {
+class _PackerinProfilePageState extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

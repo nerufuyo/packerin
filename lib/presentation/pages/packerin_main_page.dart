@@ -3,7 +3,7 @@ import 'package:packerin/presentation/widgets/packerin_header_widget.dart';
 
 class PackerinMainPage extends StatefulWidget {
   const PackerinMainPage({Key? key}) : super(key: key);
-  static const routeName = '/packerin-home';
+  static const routeName = '/packerin-bottom';
 
   @override
   _PackerinMainPageState createState() => _PackerinMainPageState();
