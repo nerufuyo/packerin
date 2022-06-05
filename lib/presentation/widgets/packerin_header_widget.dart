@@ -71,7 +71,8 @@ class _HeaderWidgetState extends State<HeaderWidget> {
                 children: [
                   IconButton(
                     icon: const Icon(
-                      Icons.menu,
+                      Icons.menu_open_rounded,
+                      size: 30,
                       color: Colors.black,
                     ),
                     onPressed: () {},
