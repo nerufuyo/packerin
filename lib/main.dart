@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
           case PackerinBottomNavigationWidget.routeName:
             return MaterialPageRoute(
                 builder: (_) => const PackerinBottomNavigationWidget());
+
+          // General Page
           case PackerinSplashPage.routeName:
             return MaterialPageRoute(
                 builder: (_) => const PackerinSplashPage());

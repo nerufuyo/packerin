@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:packerin/presentation/pages/packerin_main_page.dart';
+import 'package:packerin/presentation/pages/search_page_packerin.dart';
 
 class PackerinBottomNavigationWidget extends StatefulWidget {
   const PackerinBottomNavigationWidget({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class _PackerinBottomNavigationWidgetState
   int currentIndex = 0;
   final screens = [
     const PackerinMainPage(),
-    const Center(child: Text('Explore', style: TextStyle(fontSize: 20))),
+    const GomuflixExploreScreen(),
     const Center(child: Text('Favorite', style: TextStyle(fontSize: 20))),
     const Center(child: Text('Account', style: TextStyle(fontSize: 20))),
   ];

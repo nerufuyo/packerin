@@ -6,10 +6,10 @@ class PackerinMainPage extends StatefulWidget {
   static const routeName = '/packerin-home';
 
   @override
-  State<PackerinMainPage> createState() => _PackerinMainPage();
+  _PackerinMainPageState createState() => _PackerinMainPageState();
 }
 
-class _PackerinMainPage extends State<PackerinMainPage> {
+class _PackerinMainPageState extends State {
   @override
   void initState() {
     super.initState();
