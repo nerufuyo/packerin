@@ -36,6 +36,8 @@ class _PackerinBottomNavigationWidgetState
         children: screens,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
         currentIndex: currentIndex,
         onTap: (index) => setState((() => currentIndex = index)),
         items: const [

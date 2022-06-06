@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:packerin/common/style.dart';
+import 'package:packerin/presentation/widgets/packerin_card_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_header_widget.dart';
+import 'package:packerin/presentation/widgets/packerin_search_widget.dart';
 
 class PackerinExplorePage extends StatefulWidget {
   const PackerinExplorePage({Key? key}) : super(key: key);
@@ -24,11 +27,23 @@ class _PackerinExplorePageState extends State {
           children: [
             const HeaderWidget(),
             Padding(
-              padding: const EdgeInsets.only(left: 25, right: 25),
-              child: Column(
-                children: const [Text('Isi')],
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              child: Text(
+                'Search Destination',
+                style: titleText,
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.only(left: 25, right: 25),
+              child: Column(
+                children: const [
+                  PackerinCardWidget(),
+                  PackerinCardWidget(),
+                  PackerinCardWidget()
+                ],
+              ),
+            ),
+            const PackerinSearchWidget()
           ],
         ),
       ),

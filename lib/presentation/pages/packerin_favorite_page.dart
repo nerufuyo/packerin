@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:packerin/common/style.dart';
+import 'package:packerin/presentation/widgets/packerin_card_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_header_widget.dart';
 
 class PackerinFavoritePage extends StatefulWidget {
@@ -24,9 +26,18 @@ class _PackerinFavoritePageState extends State {
           children: [
             const HeaderWidget(),
             Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              child: Text(
+                'Favorite Destination',
+                style: titleText,
+              ),
+            ),
+            Padding(
               padding: const EdgeInsets.only(left: 25, right: 25),
               child: Column(
-                children: const [Text('Isi')],
+                children: const [
+                  PackerinCardWidget(),
+                ],
               ),
             ),
           ],
