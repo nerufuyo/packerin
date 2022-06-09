@@ -21,6 +21,7 @@ class _PackerinFavoritePageState extends State {
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
                 colors: [Colors.white, Colors.grey.shade300])),
+        
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -32,6 +33,8 @@ class _PackerinFavoritePageState extends State {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
+            
+            
             Expanded(
               child: SizedBox(
                 height: 700,
