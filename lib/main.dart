@@ -6,6 +6,7 @@ import 'package:packerin/presentation/pages/packerin_main_page.dart';
 import 'package:packerin/presentation/pages/packerin_profile_page.dart';
 import 'package:packerin/presentation/pages/packerin_splash_page.dart';
 import 'package:packerin/presentation/widgets/packerin_bottom_navigation_widget.dart';
+import 'package:packerin/presentation/widgets/packerin_drawer_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,6 +41,10 @@ class MyApp extends StatelessWidget {
           case PackerinProfilePage.routeName:
             return MaterialPageRoute(
                 builder: (_) => const PackerinProfilePage());
+
+          case PackerinDrawerWidget.routeName:
+            return MaterialPageRoute(
+                builder: (_) => const PackerinDrawerWidget());
 
           case PackerinAboutPage.routeName:
             return MaterialPageRoute(builder: (_) => const PackerinAboutPage());

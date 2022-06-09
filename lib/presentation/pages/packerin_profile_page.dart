@@ -46,7 +46,7 @@ class _PackerinProfilePageState extends State {
           children: [
             const HeaderWidget(),
             Padding(
-              padding: const EdgeInsets.only(left: 25, right: 25),
+              padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 30),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

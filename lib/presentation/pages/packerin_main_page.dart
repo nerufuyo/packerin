@@ -32,8 +32,10 @@ class _PackerinMainPageState extends State {
             const HeaderWidget(),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 25, vertical: 20),
                 child: ListView(
+                  padding: EdgeInsets.zero,
                   scrollDirection: Axis.vertical,
                   shrinkWrap: true,
                   children: [
@@ -110,14 +112,19 @@ class _PackerinMainPageState extends State {
                       ),
                     ),
                     const SizedBox(
-                      height: 10,
+                      height: 5,
                     ),
                     SizedBox(
-                      height: 120,
+                      height: MediaQuery.of(context).size.height * 0.35,
                       child: ListView(
+                        padding: EdgeInsets.zero,
                         scrollDirection: Axis.vertical,
                         shrinkWrap: true,
                         children: const [
+                          PackerinCardWidget(),
+                          PackerinCardWidget(),
+                          PackerinCardWidget(),
+                          PackerinCardWidget(),
                           PackerinCardWidget(),
                           PackerinCardWidget(),
                           PackerinCardWidget(),

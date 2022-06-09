@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:packerin/presentation/widgets/packerin_drawer_widget.dart';
 
 class HeaderWidget extends StatefulWidget {
   const HeaderWidget({
@@ -14,6 +15,7 @@ class HeaderWidget extends StatefulWidget {
 }
 
 class _HeaderWidgetState extends State<HeaderWidget> {
+  double value = 0;
   bool servicestatus = false;
   bool haspermission = false;
   late LocationPermission permission;
@@ -75,7 +77,11 @@ class _HeaderWidgetState extends State<HeaderWidget> {
                       size: 30,
                       color: Colors.black,
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      setState(() {
+                        value == 0 ? value = 1 : value = 0;
+                      });
+                    },
                   ),
                   Column(
                     children: [
