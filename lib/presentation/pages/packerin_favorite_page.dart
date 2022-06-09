@@ -25,19 +25,31 @@ class _PackerinFavoritePageState extends State {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const HeaderWidget(),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
               child: Text(
                 'Favorite Destination',
-                style: titleText,
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 25, right: 25),
-              child: Column(
-                children: const [
-                  PackerinCardWidget(),
-                ],
+            Expanded(
+              child: SizedBox(
+                height: 700,
+                child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 25),
+                    child: ListView(
+                      scrollDirection: Axis.vertical,
+                      padding: EdgeInsets.zero,
+                      shrinkWrap: true,
+                      children: const [
+                        PackerinCardWidget(),
+                        PackerinCardWidget(),
+                        PackerinCardWidget(),
+                        PackerinCardWidget(),
+                        PackerinCardWidget(),
+                        PackerinCardWidget()
+                      ],
+                    )),
               ),
             ),
           ],

@@ -57,7 +57,7 @@ class _HeaderWidgetState extends State<HeaderWidget> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 135.0,
+      height: 100,
       child: Stack(
         children: [
           Positioned(
@@ -65,7 +65,7 @@ class _HeaderWidgetState extends State<HeaderWidget> {
             left: 0.0,
             right: 0.0,
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20.0),
+              padding: const EdgeInsets.symmetric(horizontal: 18),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
