@@ -1,73 +1,103 @@
 import 'package:flutter/material.dart';
 import 'package:packerin/common/style.dart';
+import 'package:packerin/data/model/packerin_destination_list_model.dart';
 
 class PackerinCardWidget extends StatelessWidget {
   const PackerinCardWidget({
     Key? key,
+    required this.destination,
   }) : super(key: key);
+
+  final List<PackerinDestinationListModel> destination;
 
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(30),
-      child: InkWell(
-        onTap: () {},
-        child: Card(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
-            child: Row(
-              children: [
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Image.asset(
-                    'assets/mountains.jpg',
-                    height: 100,
+    return ListView.separated(
+      padding: EdgeInsets.zero,
+      separatorBuilder: (context, index) => const SizedBox(height: 5),
+      scrollDirection: Axis.vertical,
+      shrinkWrap: true,
+      itemCount: destination.length,
+      itemBuilder: (context, index) {
+        return ClipRRect(
+          borderRadius: BorderRadius.circular(15),
+          child: InkWell(
+            onTap: () {},
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.grey[200],
+                boxShadow: const [
+                  BoxShadow(
+                    color: Colors.grey,
+                    offset: Offset(0.0, 1.0),
+                    blurRadius: 6.0,
                   ),
-                ),
-                Expanded(
-                    child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Mountain Everest',
-                        style: nameText,
+                ],
+              ),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+                child: Row(
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.network(
+                        destination[index].pictureId,
+                        height: 100,
+                        width: 150,
+                        fit: BoxFit.cover,
                       ),
-                      Row(
+                    ),
+                    Expanded(
+                        child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Icon(
-                            Icons.star,
-                            color: Colors.yellow,
+                          Text(
+                            destination[index].name,
+                            style: const TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 18),
                           ),
-                          const SizedBox(
-                            width: 5,
+                          Row(
+                            children: [
+                              const Icon(
+                                Icons.star,
+                                color: Colors.yellow,
+                              ),
+                              const SizedBox(
+                                width: 5,
+                              ),
+                              Text(
+                                destination[index].rating.toString(),
+                                style: const TextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 14),
+                              )
+                            ],
                           ),
                           Text(
-                            '4.5',
-                            style: nameText,
+                            destination[index].city,
+                            style: TextStyle(
+                              color: Colors.grey.shade600,
+                              fontSize: 14,
+                            ),
+                          ),
+                          Text(
+                            destination[index].description,
+                            style: detailText,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
                           )
                         ],
                       ),
-                      Text(
-                        'California, United States',
-                        style: subNameText,
-                      ),
-                      Text(
-                        'lore isum color damet simetris seueatu jajaja',
-                        style: detailText,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      )
-                    ],
-                  ),
-                ))
-              ],
+                    ))
+                  ],
+                ),
+              ),
             ),
           ),
-        ),
-      ),
+        );
+      },
     );
   }
 }

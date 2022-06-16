@@ -23,7 +23,8 @@ class PackerinDrawerWidget extends StatelessWidget {
                 DrawerHeader(
                   child: CircleAvatar(
                     radius: 80,
-                    backgroundImage: Image.asset('assets/profile.jpg').image,
+                    backgroundImage:
+                        Image.asset('assets/images/profile.jpg').image,
                   ),
                 ),
                 const Text(

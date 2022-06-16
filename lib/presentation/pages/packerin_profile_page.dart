@@ -55,7 +55,7 @@ class _PackerinProfilePageState extends State {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(200),
                         child: Image.asset(
-                          'assets/profile.jpg',
+                          'assets/images/profile.jpg',
                           width: 125,
                         ),
                       ),

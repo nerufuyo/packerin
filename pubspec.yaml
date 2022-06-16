@@ -26,8 +26,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/mountains.jpg
-    - assets/logo.png
+    - assets/data/local_destination.json
+    - assets/images/profile.jpg
+    - assets/images/mountains.jpg
+    - assets/images/logo.png
     - assets/fonts/Inter-Regular.ttf
     - assets/fonts/Inter-Bold.ttf
               

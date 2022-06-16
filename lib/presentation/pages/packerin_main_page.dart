@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:packerin/common/style.dart';
+import 'package:packerin/data/model/packerin_destination_list_model.dart';
+import 'package:packerin/data/model/packerin_destination_model.dart';
 import 'package:packerin/presentation/widgets/packerin_card_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_content_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_filter_widget.dart';
@@ -32,8 +35,8 @@ class _PackerinMainPageState extends State {
             const HeaderWidget(),
             Expanded(
               child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 25, vertical: 20),
+                padding: const EdgeInsets.only(
+                    left: 25, right: 25, top: 15, bottom: 5),
                 child: ListView(
                   padding: EdgeInsets.zero,
                   scrollDirection: Axis.vertical,
@@ -100,36 +103,62 @@ class _PackerinMainPageState extends State {
                     ),
                     SizedBox(
                       height: 425,
-                      child: ListView(
-                        scrollDirection: Axis.horizontal,
-                        shrinkWrap: true,
-                        children: const [
-                          PackerinContentWidget(),
-                          PackerinContentWidget(),
-                          PackerinContentWidget(),
-                          PackerinContentWidget(),
-                        ],
+                      child: FutureBuilder<String>(
+                        future: DefaultAssetBundle.of(context)
+                            .loadString('assets/data/local_destination.json'),
+                        builder: (context, snapshot) {
+                          if (snapshot.connectionState !=
+                              ConnectionState.done) {
+                            return const Center(
+                                child: CircularProgressIndicator());
+                          } else {
+                            if (snapshot.hasData) {
+                              final List<PackerinDestinationListModel>
+                                  destination =
+                                  parseDestination(snapshot.data!);
+
+                              return Expanded(
+                                child: PackerinContentWidget(
+                                    destination: destination),
+                              );
+                            } else {
+                              return Center(
+                                child: Text('Destination Not Found',
+                                    style: subTitleText),
+                              );
+                            }
+                          }
+                        },
                       ),
                     ),
-                    const SizedBox(
-                      height: 5,
-                    ),
+                    const SizedBox(height: 5),
                     SizedBox(
-                      height: MediaQuery.of(context).size.height * 0.35,
-                      child: ListView(
-                        padding: EdgeInsets.zero,
-                        scrollDirection: Axis.vertical,
-                        shrinkWrap: true,
-                        children: const [
-                          PackerinCardWidget(),
-                          PackerinCardWidget(),
-                          PackerinCardWidget(),
-                          PackerinCardWidget(),
-                          PackerinCardWidget(),
-                          PackerinCardWidget(),
-                          PackerinCardWidget(),
-                          PackerinCardWidget()
-                        ],
+                      height: MediaQuery.of(context).size.height * 0.5,
+                      child: FutureBuilder<String>(
+                        future: DefaultAssetBundle.of(context)
+                            .loadString('assets/data/local_destination.json'),
+                        builder: (context, snapshot) {
+                          if (snapshot.connectionState !=
+                              ConnectionState.done) {
+                            return const Center(
+                                child: CircularProgressIndicator());
+                          } else {
+                            if (snapshot.hasData) {
+                              final List<PackerinDestinationListModel>
+                                  destination =
+                                  parseDestination(snapshot.data!);
+
+                              return Expanded(
+                                  child: PackerinCardWidget(
+                                      destination: destination));
+                            } else {
+                              return Center(
+                                child: Text('Destination Not Found',
+                                    style: subTitleText),
+                              );
+                            }
+                          }
+                        },
                       ),
                     ),
                   ],

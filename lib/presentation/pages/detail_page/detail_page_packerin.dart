@@ -20,7 +20,7 @@ class DetailScreen extends StatelessWidget {
                     bottomRight: Radius.circular(40),
                   ),
                   image: DecorationImage(
-                    image: AssetImage('assets/mountain.jpg'),
+                    image: AssetImage('assets/images/mountain.jpg'),
                   ),
                 ),
               ),

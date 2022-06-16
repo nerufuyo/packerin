@@ -15,6 +15,18 @@ TextStyle subNameText = GoogleFonts.fredoka(color: Colors.grey, fontSize: 14);
 TextStyle detailText = GoogleFonts.fredoka(color: Colors.black, fontSize: 12);
 TextStyle subDetailText = GoogleFonts.fredoka(color: Colors.grey, fontSize: 11);
 
+TextStyle secondTitleText =
+    GoogleFonts.inter(color: Colors.black, fontSize: 24);
+TextStyle secondSubTitleText =
+    GoogleFonts.inter(color: Colors.grey, fontSize: 20);
+TextStyle secondNameText = GoogleFonts.inter(color: Colors.black, fontSize: 16);
+TextStyle secondSubNameText =
+    GoogleFonts.inter(color: Colors.grey, fontSize: 14);
+TextStyle secondDetailText =
+    GoogleFonts.inter(color: Colors.black, fontSize: 12);
+TextStyle secondSubDetailText =
+    GoogleFonts.inter(color: Colors.grey, fontSize: 11);
+
 // Fontweight
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;

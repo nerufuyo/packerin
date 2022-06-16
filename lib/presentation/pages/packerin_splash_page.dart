@@ -38,7 +38,7 @@ class _PackerinSplashPageState extends State<PackerinSplashPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/logo.png',
+              'assets/images/logo.png',
               width: 150,
             ),
             const SizedBox(

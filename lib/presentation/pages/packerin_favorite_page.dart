@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:packerin/common/style.dart';
+import 'package:packerin/data/model/packerin_destination_list_model.dart';
+import 'package:packerin/data/model/packerin_destination_model.dart';
 import 'package:packerin/presentation/widgets/packerin_card_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_header_widget.dart';
 
@@ -21,7 +23,6 @@ class _PackerinFavoritePageState extends State {
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
                 colors: [Colors.white, Colors.grey.shade300])),
-        
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -33,26 +34,35 @@ class _PackerinFavoritePageState extends State {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
-            
-            
             Expanded(
-              child: SizedBox(
-                height: 700,
-                child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 25),
-                    child: ListView(
-                      scrollDirection: Axis.vertical,
-                      padding: EdgeInsets.zero,
-                      shrinkWrap: true,
-                      children: const [
-                        PackerinCardWidget(),
-                        PackerinCardWidget(),
-                        PackerinCardWidget(),
-                        PackerinCardWidget(),
-                        PackerinCardWidget(),
-                        PackerinCardWidget()
-                      ],
-                    )),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.35,
+                  child: FutureBuilder<String>(
+                    future: DefaultAssetBundle.of(context)
+                        .loadString('assets/data/local_destination.json'),
+                    builder: (context, snapshot) {
+                      if (snapshot.connectionState != ConnectionState.done) {
+                        return const Center(child: CircularProgressIndicator());
+                      } else {
+                        if (snapshot.hasData) {
+                          final List<PackerinDestinationListModel> destination =
+                              parseDestination(snapshot.data!);
+
+                          return Expanded(
+                              child:
+                                  PackerinCardWidget(destination: destination));
+                        } else {
+                          return Center(
+                            child: Text('Destination Not Found',
+                                style: subTitleText),
+                          );
+                        }
+                      }
+                    },
+                  ),
+                ),
               ),
             ),
           ],
