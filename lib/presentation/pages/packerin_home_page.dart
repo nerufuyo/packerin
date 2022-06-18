@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:geocoding/geocoding.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:packerin/common/style.dart';
 import 'package:packerin/data/model/packerin_destination_list_model.dart';
 import 'package:packerin/data/model/packerin_destination_model.dart';
@@ -68,19 +66,19 @@ class PackerinHomePageState extends State {
           child: Stack(
             children: [
               const PackerinDrawerWidget(),
-              AbsorbPointer(
-                absorbing: isDrawerOpen,
-                child: AnimatedContainer(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(isDrawerOpen ? 20 : 0),
-                    gradient: LinearGradient(
-                        begin: Alignment.topRight,
-                        end: Alignment.bottomLeft,
-                        colors: [Colors.white, Colors.grey.shade400]),
-                  ),
-                  duration: const Duration(milliseconds: 500),
-                  transform: Matrix4.translationValues(xOffset, yOffset, 0)
-                    ..scale(scaleFactor),
+              AnimatedContainer(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(isDrawerOpen ? 20 : 0),
+                  gradient: LinearGradient(
+                      begin: Alignment.topRight,
+                      end: Alignment.bottomLeft,
+                      colors: [Colors.white, Colors.grey.shade400]),
+                ),
+                duration: const Duration(milliseconds: 300),
+                transform: Matrix4.translationValues(xOffset, yOffset, 0)
+                  ..scale(scaleFactor),
+                child: AbsorbPointer(
+                  absorbing: isDrawerOpen,
                   child: Column(
                     children: [
                       HeaderWidget(

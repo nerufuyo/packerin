@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 const Color darkGreenColor = Color(0xff2C3333);
 const Color darkCyanColor = Color(0xff395B64);
 const Color darkBlueColor = Color(0xff2666CF);
+const Color darkestBlueColor = Color.fromARGB(255, 5, 29, 67);
 const Color whiteColor = Color(0xffF1F1F1);
 const Color darkColor = Color(0xff000000);
 
