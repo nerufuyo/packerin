@@ -44,7 +44,7 @@ class _PackerinProfilePageState extends State {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const HeaderWidget(),
+            // const HeaderWidget(),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 30),
               child: Column(

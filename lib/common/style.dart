@@ -6,6 +6,7 @@ const Color darkGreenColor = Color(0xff2C3333);
 const Color darkCyanColor = Color(0xff395B64);
 const Color darkBlueColor = Color(0xff2666CF);
 const Color whiteColor = Color(0xffF1F1F1);
+const Color darkColor = Color(0xff000000);
 
 // Text
 TextStyle titleText = GoogleFonts.fredokaOne(color: Colors.black, fontSize: 24);

@@ -29,8 +29,9 @@ class PackerinContentWidget extends StatelessWidget {
                 boxShadow: const [
                   BoxShadow(
                     color: Colors.grey,
-                    offset: Offset(0.0, 1.0),
-                    blurRadius: 6.0,
+                    spreadRadius: 5,
+                    blurRadius: 7,
+                    offset: Offset(0, 3),
                   ),
                 ],
               ),

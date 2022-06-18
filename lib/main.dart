@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:packerin/presentation/pages/packerin_about_page.dart';
 import 'package:packerin/presentation/pages/packerin_explore_page.dart';
 import 'package:packerin/presentation/pages/packerin_favorite_page.dart';
-import 'package:packerin/presentation/pages/packerin_main_page.dart';
+import 'package:packerin/presentation/pages/packerin_home_page.dart';
 import 'package:packerin/presentation/pages/packerin_profile_page.dart';
 import 'package:packerin/presentation/pages/packerin_splash_page.dart';
-import 'package:packerin/presentation/widgets/packerin_bottom_navigation_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_drawer_widget.dart';
 
 void main() {
@@ -20,15 +19,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Packerin',
       theme: ThemeData().copyWith(scaffoldBackgroundColor: Colors.white),
-      initialRoute: PackerinSplashPage.routeName,
+      initialRoute: PackerinHomePage.routeName,
       onGenerateRoute: (RouteSettings settings) {
         switch (settings.name) {
           case PackerinSplashPage.routeName:
             return MaterialPageRoute(
                 builder: (_) => const PackerinSplashPage());
 
-          case PackerinMainPage.routeName:
-            return MaterialPageRoute(builder: (_) => const PackerinMainPage());
+          case PackerinHomePage.routeName:
+            return MaterialPageRoute(builder: (_) => const PackerinHomePage());
 
           case PackerinExplorePage.routeName:
             return MaterialPageRoute(
@@ -49,9 +48,6 @@ class MyApp extends StatelessWidget {
           case PackerinAboutPage.routeName:
             return MaterialPageRoute(builder: (_) => const PackerinAboutPage());
 
-          case PackerinBottomNavigationWidget.routeName:
-            return MaterialPageRoute(
-                builder: (_) => const PackerinBottomNavigationWidget());
           default:
             return MaterialPageRoute(builder: (_) {
               return const Scaffold(

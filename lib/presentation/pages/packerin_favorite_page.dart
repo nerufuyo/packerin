@@ -17,16 +17,18 @@ class _PackerinFavoritePageState extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: AnimatedContainer(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.topRight,
-                end: Alignment.bottomLeft,
-                colors: [Colors.white, Colors.grey.shade300])),
+          gradient: LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
+              colors: [Colors.white, Colors.grey.shade400]),
+        ),
+        duration: const Duration(milliseconds: 250),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const HeaderWidget(),
+            // const HeaderWidget(),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
               child: Text(
