@@ -1,0 +1,164 @@
+{
+  "templedestination": [
+    {
+      "id": "1",
+      "name": "Candi Cangkuang",
+      "description": "Candi Cangkuang adalah salah satu Candi yang ada di Indonesia, Candi ini juga pertama kali ditemukan di Tatar Sunda serta merupakan satu-satunya Candi Hindu di Tatar Sunda. Candi ini bersebelahan dengan makam Embah Dalem Arief Muhammad, sebuah makam kuno pemuka agama Islam yang dipercaya sebagai leluhur penduduk Desa Cangkuang. Nama dari Candi ini diambil dari nama desa tempat Candi ini berada.",
+      "pictureId": "https://jernih.co/wp-content/uploads/image1_1530518801.jpg",
+      "city": "Garut, Jawa Barat",
+      "rating": 3.5
+    },
+    {
+      "id": "2",
+      "name": "Candi Cetho",
+      "description": "Candi ini bercorak agama Hindu yang diduga dibangun pada masa-masa akhir era Majapahit. Candi ini berada di lereng Gunung Lawu pada ketinggian 1496 m diatas permukaan laut. Kompleks Candi ini digunakan oleh penduduk setempat dan juga peziarah yang beragama Hindu sebagai tempat pemujaan, selain itu Candi ini juga merupakan tempat pertapaan bagi kalangan penganut kepercayaan asli Jawa atau Kejawen.",
+      "pictureId": "https://kendhil.com/wp-content/uploads/2020/10/Tiket-Masuk-Candi-Cetho-Karanganyar.jpg",
+      "city": "Karanganyar, Jawa Tengah",
+      "rating": 4.5
+    },
+    {
+      "id": "3",
+      "name": "Candi Dieng",
+      "description": "Candi Dieng adalah salah satu Candi yang ada di Indonesia dimana Candi Hindu abad ke-7 ini terletak di Dataran Tinggi Dieng. Dataran tinggi ini adalah tempat berdirinya delapan Candi Hindu kecil yang merupakan salah satu bangunan keagamaan tertua yang masih bertahan yang pernah dibangun di Jawa. Nama sebenarnya dari Candi ini, sejarah dan raja yang bertanggung jawab atas pembangunan Candi-candi ini tidak diketahui. Hal ini dikarenakan kelangkaan data dan prasasti yang terkait dengan pembangunan Candi-candi ini. Para penduduk Jawa lokal pun menamai setiap Candi sesuai dengan tokoh Wayang Jawa yang kebanyakan diambil dari epos Mahabharata.",
+      "pictureId": "https://auroraxa.com/wp-content/uploads/2021/01/Wisata-Candi-Arjuna-Dieng-Peninggalan-Kerejaan-Mataram.jpg",
+      "city": "Wonosobo, Jawa Tengah",
+      "rating": 4
+    },
+    {
+      "id": "4",
+      "name": "Candi Gedong Songo",
+      "description": "Candi Gedong Songo adalah nama sebuah kompleks bangunan Candi peninggalan Hindu yang terletak di lereng Gunung Ungaran. Di kompleks Candi ini terdapat sembilan buah Candi yang memiliki pemandangan alam yang indah. Selain itu, objek wisata ini juga dilengkapi dengan pemandian air panas dari mata air yang mengandung belerang, area perkemahan dan wisata berkuda.",
+      "pictureId": "https://asset.kompas.com/crops/Ve_tsJMbUilZ8tY7L8nyIcCjtD8=/23x0:1003x653/750x500/data/photo/2021/12/26/61c8581af190b.png",
+      "city": "Semarang, Jawa Tengah",
+      "rating": 4.5
+    },
+    {
+      "id": "5",
+      "name": "Candi Gunung Sari",
+      "description":"Candi Gunung Sari adalah salah satu Candi yang ada di Indonesia, Candi Hindu Siwa ini berada di puncak Bukit Sari yang tidak jauh dari Candi Gunung Wukir. Candi Gunung Sari ini diduga merupakan peninggalan abad ke-6 hingga ke-8 yang membuatnya menjadi Candi tertua di tanah Jawa, lebih tua dari Candi Borobudur dan Candi Prambanan.",
+      "pictureId": "https://kendhil.com/wp-content/uploads/2020/10/candi-gunung-sari-2.jpg",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.3
+    },
+    {
+      "id": "6",
+      "name": "Candi Gunung Wukir",
+      "description":"Candi ini berada di atas Bukit Wukir yang oleh masyarakat sekitar disebutGunung Wukir. Candi ini merupakan Candi tertua yang dapat dihubungkan dengan angka tahun. Berdasarkan prasasti Canggal yang ditemukan pada tahun 1879 di reruntuhan, Candi ini didirikan pada saat pemerintahan Raja Sanjaya dari zaman Kerajaan Mataram Kuno yaitu pada tahun 732 M. Bangunan Candi ini terbuat dari jenis batu andesit setidaknya terdiri dari satu Candi induk dan tiga Candi Perwara. Di kompleks Candi ini tak hanya ada prasasti saja namun juga lingga yoni dan arca lembu (Nandi).",
+      "pictureId":  "https://upload.wikimedia.org/wikipedia/commons/0/05/Gunung_Wukir_Canggal_Perwara_Temple.jpg",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.4
+    },
+    {
+      "id": "7",
+      "name": "Candi Jago",
+      "description": "Menurut kitab Negarakertagama nama Candi Jago sebenarnya berasal dari kata “Jajaghu” yang didirikan pada masa Kerajaan Singhasari pada abad ke-13. Jajaghu sendiri artinya adalah “Keagungan”. Candi ini cukup unik karena bagian atasnya hanya tersisa sebagian dan menurut cerita setempat karena tersambar petir. Di Candi ini terdapat relief-relief Kunjarakarna dan Pancatantra dan seluruh bangunan Candi ini tersusun atas bahan batu andesit.",
+      "pictureId": "https://www.pegipegi.com/travel/wp-content/uploads/2018/10/candi-jago-malang.jpg",
+      "city": "Malang, Jawa Timur",
+      "rating": 4.6
+    },
+    {
+      "id": "8",
+      "name": "Candi Prambanan",
+      "description": "Candi Prambanan atau Candi Roro Jonggrang adalah kompleks Candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti yaitu Dewa utama Hindu yaitu Brahma sebagai Dewa pencipta, Wisnu sebagai Dewa pemelihara dan Siwa sebagai Dewa pelebur. Candi ini termasuk Situs Warisan Dunia UNESCO, Candi Hindu terbesar di Indonesia sekaligus salah satu Candi terindah di Asia Tenggara. Arsitektur bangunan ini berbentuk tinggi dan ramping sesuai dengan arsitektur Hindu pada umumnya dengan Candi Siwa sebagai Candi Utama yang memiliki ketinggian mencapai 47 meter menjulang di tengaj kompleks gugusan Candi-Candi yang lebih kecil. Menurut prasasti Siwagrha, Candi ini mulai dibangun pada tahun 850 masehi oleh Rakai Pikatan dan terus dikembangkan dan diperluas oleh Balitung Maha Sambu pada masa Kerajaan Medang Mataram.",
+      "pictureId": "https://advontura.com/wp-content/uploads/2020/12/hd-wallpaper-gambar-candi-prambanan-1.jpg",
+      "city": "Sleman, Yogyakarta",
+      "rating": 4.7
+    },
+    {
+      "id": "9",
+      "name": "Candi Penataran",
+      "description": "Candi Penataran adalah salah satu Candi yang ada di Indonesia, dimana Candi ini termegah dan terluas di Jawa Timur yang terletak di lereng barat daya Gunung Kelud. Dari prasasti yang tersimpan di bagian Candi, diperkirakan Candi ini dibangun pada masa Raja Srengga dari Kerajaan Kediri sekitar tahun 1200 Masehi dan berlanjut digunakan sampai masa pemerintahan Wikramawardhana, Raja Majapahit sekitar tahun 1415. Pada kitab Desawarnana atau Nagarakertagama yang ditulis pada tahun 1365, Candi ini disebut sebagai bangunan suci “Palah” yang dikunjungi Raja Hayam Wuruk dalam perjalanan kerajaan bertamasya berkeliling Jawa Timur.",
+      "pictureId": "https://picture.triptrus.com/image/2014/06/candi-penataran-2.jpeg",
+      "city": "Blitar, Jawa Timur",
+      "rating": 4.5
+    },
+    {
+      "id": "10",
+      "name": "Candi Sukuh",
+      "description": "Candi Sukuh adalah sebuah kompleks Candi Hindu yang ada di Indonesia. Candi ini memiliki bentuk yang kurang lazim karena penggambaran alat-alat kelamin manusia secara eksplisit pada beberapa figurnya. Bangunan Candi Sukuh ini memberikan kesan keserhanaan yang mencolok pada para pengunjung. Kesan yang didapatkan dari Candi ini sungguh berbeda dengan Candi-candi besar di Jawa Tengah lainnya. Bentuk bangunan Candi Sukuh cenderung mirip dengan peninggalan budaya Maya di Meskiko atau peninggalan budaya Inca di Peru.",
+      "pictureId":"https://museumnusantara.com/wp-content/uploads/2020/06/candi-sukuh-oleh-museum-nusantara.jpg",
+      "city": "Karanganyar, Jawa Tengah",
+      "rating": 4.6
+    },
+    {
+      "id": "11",
+      "name": "Candi Borobudur",
+      "description": "Candi Borobudur adalah salah satu Candi yang ada di Indonesia, dimana Candi ini berbentuk stupa yang didirikan oleh para penganut agama Budha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan Wangsa Syailendra. Candi Borobudur ini menjadi Candi Budha terbesar di dunia dan salah satu monumen Budha terbesar di dunia. Candi ini terdiri dari enam teras berbentuk bujur sangkar yang diatasnya terdapat tiga pelataran melingkar pada dindingnya dihiasi dengan 2.672 panel relief dan aslinya terdapat 504 arca Budha. Candi Borobudur ini memiliki koleksi relief Budha terlengkap dan terbanyak di dunia.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ef/47/1c/borobudur-temple.jpg?w=1200&h=-1&s=1",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.7
+    },
+    {
+      "id": "12",
+      "name": "Candi Brahu",
+      "description": "Candi satu ini terletak di dalam kawasan situs arkeologi Trowulan, bekas ibu kota Majapahit. Nama Candi ini yaitu “Brahu” yang diduga berasal dari kata wanaru atau warahu. Nama ini didapat dari sebutan sebuah bangunan suci yang disebut dalam Prasasti Alasantan. Candi Brahu ini dibangun dengan batu bata merah menghadao ke arah barat dan berukuran panjang sekitar 22,5 m dengan lebar 18 m dan berketinggian 20 meter.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/29/04/2b/eyeemfiltered1451116519411.jpg?w=1200&h=-1&s=1",
+      "city": "Mojokerto, Jawa Timur",
+      "rating": 4.6
+    },
+    {
+      "id": "13",
+      "name": "Candi Banyunibo",
+      "description": "Candi Banyunibo ini berada tidak jauh dari Candi Ratu Boko, Candi ini dibangun sekitar abad ke-9 pada zaman Kerajaan Mataram Kuno. Pada bagian atas Candi ini terdapat sebuah stupa yang merupakan ciri khas agama Budha. Candi ini termasuk bangunan suci Budha yang cukup kaya akan hiasan, hampir setiap bagian Candi diisi dengan berbagai macam hiasan dan relief.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/49/88/13/img-20171102-120504-largejpg.jpg?w=1200&h=1200&s=1",
+      "city": "Sleman, Yogyakarta",
+      "rating": 4.5
+    },
+    {
+      "id": "14",
+      "name": "Candi Bahal",
+      "description": "Candi Bahal adalah kompleks Candi Budha aliran Vajrayana, Candi ini terbuat dari bahan batu bata merah dan diduga berasal dari abad ke-11. Candi ini memiliki tiga bangunan kuno yaitu Biaro Bahal I, II dan III. Bangunan Candi ini saling berhubungan dan terdiri dalam satu garis yang lurus.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Candi_Bahal_1.JPG/1200px-Candi_Bahal_1.JPG",
+      "city": "Padang Lawas, Sumatera Utara",
+      "rating": 4.4
+    },
+    {
+      "id": "15",
+      "name": "Candi Jabung",
+      "description":"Candi Jabung adalah salah satu Candi yang ada di Indonesia, Candi Hindu ini merupakan peninggalan Kerajaan Majapahit. Struktur bangunan Candi ini hanya dari bata merah yang mampu bertahan ratusan tahun. Arsitektur bangunan Candi ini hampir sama dengan Candi Bahal yang ada di Bahal, Sumatra Utara. Candi Jabung ini berdiri di sebidang tanah berukuran 35 meter x 40 meter, pemugaran secara fisik pada tahun 1983 – 1987. Penataan lingkungan luasnya bertambah 20,042 meter persegi dan terletak pada ketinggian 8 meter di atas permukaan air laut. Candi ini terdiri dari dua bangunan utama yang terdiri dari satu bangunan besar dan satu bangunan kecil yang biasa disebut Candi Sudut.",
+      "pictureId": "https://kendhil.com/wp-content/uploads/2020/10/candi-peninggalan-kerajaan-majapahit-candi-jabung.jpg",
+      "city": "Probolinggo, Jawa Timur",
+      "rating": 4.4
+    },
+    {
+      "id": "16",
+      "name": "Candi Kalasan",
+      "description":"Candi Kalasan adalah sebuah bangunan Cagar Budaya yang dikategorikan sebagai Candi Budha. Candi ini memiliki 52 stupa dan berada di sisi selatan jalan raya antara Yogyakarta dan Solo. Pada awalnya hanya Candi Kalasan ini yang ditemukan pada kawasan situs ini, namun setelah digali lebih dalam ditemukan lebih banyak lagi bangunan-bangunan pendukung di sekitar Candi ini. Selain Candi Kalasan dan bangunan-bangunan pendukung lainnya ada juga tiga buah Candi kecil di luar bangunan Candi Utama berupa stupa.",
+      "pictureId":  "https://www.alodiatour.com/wp-content/uploads/2018/11/lokasi-candi-kalasan.jpg",
+      "city": "Slema, Yogyakarta",
+      "rating": 4.5
+    },
+    {
+      "id": "17",
+      "name": "Candi Mendut",
+      "description": "Candi Mendut adalah Candi bercorak Budha yang didirikan semasa pemerintahan Raja Indra dari dinasti Syailendra. Bahan bangunan Candi ini sebenarnya adalah batu bata yang ditutupi dengan batu alam. Bangunan ini terletak pada sebuah basement yang tinggi sehingga tampak lebih anggun dan kokoh. Tangga naik dan pintu masuk menghadap ke barat daya. Di atas basement terdapat lorong yang mengelilingi tubuh Candi, atapnya bertingkat tiga dan dihiasi dengan stupa-stupa kecil berjumlah 48 buah.",
+      "pictureId": "http://2.bp.blogspot.com/-1JS7_dnje1I/Vlo6Ul9hnHI/AAAAAAAAFF8/WER3wk8wzBI/s1600/Candi%2BMendut%2B1.JPG",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.6
+    },
+    {
+      "id": "18",
+      "name": "Candi Muara Takus",
+      "description": "Candi Muara Takus adalah salah satu Candi yang ada di Indonesia, Candi ini dikelilingi dengan tembok berukuran 74 x 74 meter yang terbuat dari batu putih dengan tinggi tembok sekitar 80 cm. Di luar areanya juga terdapat tembok tanah berukuran 1,5 x 1,5 kilometer. Di dalam kompleks ini terdapat beberapa bangunan Candi yang disebut dengan Candi Sulung/Tua, Candi Bungsi, Mahligai Stupa dan Palangka. Pada tahun 2009, Candi Muara Takus dicalonkan untuk menjadi salah satu Situs Warisan Dunia UNESCO.",
+      "pictureId": "https://anekatempatwisata.com/wp-content/uploads/2021/04/1-Candi-Muara-Takus.jpg",
+      "city": "Kampar, Riau",
+      "rating": 4.3
+    },
+    {
+      "id": "19",
+      "name": "Candi Pawon",
+      "description": "Candi Pawon adalah sebuah Candi yang berada dianatar Candi Mendut dan Candi Borobudur. Di dalam bilik Canci ini sudah tidak ditemukan lagi arca sehingga sulit mengidentifikasikannya lebih jauh. Hal yang menarik dari Candi Pawon ini adalah ragam hiasnya. Dinding-dinding luar candi dihias dengan relief pohon hayati (kalpataru) yang diapit pundi-pundi dan kinara-kinari.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/93/51/f1/candi-pawon.jpg?w=1200&h=1200&s=1",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.4
+    },
+    {
+      "id": "20",
+      "name": "Candi Sewu",
+      "description": "Candi Sewu adalah Candi Budha yang dibangun pada abad ke-8, Candi Sewu ini menjadi kompleks Candi Budha terbesar kedua setelah Candi Borobudur. Candi ini berusia lebih tua daripada Candi Borobudur dan Candi Prambanan. Meskipun aslinya memiliki 249 Candi oleh masyarakat setempat Candi ini dinamakan Sewu yang berarti seribu dalam bahasa Jawa. Penamaan ini berdasarkan kisah legenda Loro Jonggrang.",
+      "pictureId":"https://www.hargatiket.net/wp-content/uploads/2019/11/Candi-Sewu.jpg",
+      "city": "Sleman, Yogyakarta",
+      "rating": 4.6
+    }
+  ]
+}
