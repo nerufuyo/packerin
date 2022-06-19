@@ -8,8 +8,11 @@ import 'package:packerin/presentation/pages/packerin_home_page.dart';
 import 'package:packerin/presentation/pages/packerin_profile_page.dart';
 import 'package:packerin/presentation/pages/packerin_splash_page.dart';
 import 'package:packerin/presentation/widgets/packerin_drawer_widget.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main()
+async{
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 

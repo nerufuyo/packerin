@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573887057144",
+    "project_id": "packerin-3c205",
+    "storage_bucket": "packerin-3c205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573887057144:android:8a08af64a411f95ebeff0d",
+        "android_client_info": {
+          "package_name": "com.capstone.packerin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573887057144-epm0k6mlau79gcsjt3tqqqspfogfc5or.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY_WK-2Faiq6GEAsl1v7KEw6RrH-if47M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573887057144-epm0k6mlau79gcsjt3tqqqspfogfc5or.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
