@@ -179,9 +179,8 @@ class PackerinHomePageState extends State {
                                             parseDestination(snapshot.data!);
 
                                         return Expanded(
-                                          child: PackerinContentWidget(
-                                              destination: destination),
-                                        );
+                                            child: PackerinCardWidget(
+                                                destination: destination));
                                       } else {
                                         return Center(
                                           child: Text('Destination Not Found',
@@ -212,8 +211,9 @@ class PackerinHomePageState extends State {
                                             parseDestination(snapshot.data!);
 
                                         return Expanded(
-                                            child: PackerinCardWidget(
-                                                destination: destination));
+                                          child: PackerinContentWidget(
+                                              destination: destination),
+                                        );
                                       } else {
                                         return Center(
                                           child: Text('Destination Not Found',

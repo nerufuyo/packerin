@@ -25,7 +25,7 @@ class PackerinDrawerWidget extends StatelessWidget {
             children: [
               ListTile(
                 contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 5),
                 leading: const Icon(Icons.home, color: whiteColor),
                 title: const Text(
                   'Home',
@@ -41,7 +41,7 @@ class PackerinDrawerWidget extends StatelessWidget {
               ),
               ListTile(
                 contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 5),
                 leading: const Icon(Icons.explore, color: whiteColor),
                 title: const Text(
                   'Explore',
@@ -57,7 +57,7 @@ class PackerinDrawerWidget extends StatelessWidget {
               ),
               ListTile(
                 contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 5),
                 leading: const Icon(Icons.favorite, color: whiteColor),
                 title: const Text(
                   'Favorite',
@@ -73,7 +73,7 @@ class PackerinDrawerWidget extends StatelessWidget {
               ),
               ListTile(
                 contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 5),
                 leading: const Icon(Icons.person, color: whiteColor),
                 title: const Text(
                   'Profile',
@@ -89,7 +89,7 @@ class PackerinDrawerWidget extends StatelessWidget {
               ),
               ListTile(
                 contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 5),
                 leading: const Icon(Icons.info, color: whiteColor),
                 title: const Text(
                   'About',

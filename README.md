@@ -1,6 +1,8 @@
 # PackerIn
 
-PackerIn
+[![Codemagic build status](https://api.codemagic.io/apps/62ae60274f0303a7026f1db8/62ae60274f0303a7026f1db7/status_badge.svg)](https://codemagic.io/apps/62ae60274f0303a7026f1db8/62ae60274f0303a7026f1db7/latest_build)
+
+PackerIn Description
 
 ## Getting Started
 

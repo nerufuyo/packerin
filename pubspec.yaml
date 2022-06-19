@@ -15,7 +15,9 @@ dependencies:
   google_fonts: ^3.0.1
   geolocator: ^8.2.1
   geocoding: ^2.0.4
+  cached_network_image: ^3.2.0
   font_awesome_flutter: ^10.1.0
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -30,13 +32,4 @@ flutter:
     - assets/images/profile.jpg
     - assets/images/mountains.jpg
     - assets/images/logo.png
-    - assets/fonts/Inter-Regular.ttf
-    - assets/fonts/Inter-Bold.ttf
-              
-fonts:
-  family:
-    - Inter
-  weight: 400
-      
-      
-          
+

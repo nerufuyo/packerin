@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:packerin/data/model/packerin_destination_list_model.dart';
 import 'package:packerin/presentation/pages/packerin_about_page.dart';
+import 'package:packerin/presentation/pages/packerin_detail_page.dart';
 import 'package:packerin/presentation/pages/packerin_explore_page.dart';
 import 'package:packerin/presentation/pages/packerin_favorite_page.dart';
 import 'package:packerin/presentation/pages/packerin_home_page.dart';
@@ -18,7 +20,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Packerin',
-      theme: ThemeData().copyWith(scaffoldBackgroundColor: Colors.white),
+      theme: ThemeData(fontFamily: 'Fredoka')
+          .copyWith(scaffoldBackgroundColor: Colors.white),
       initialRoute: PackerinHomePage.routeName,
       onGenerateRoute: (RouteSettings settings) {
         switch (settings.name) {
@@ -44,6 +47,12 @@ class MyApp extends StatelessWidget {
           case PackerinDrawerWidget.routeName:
             return MaterialPageRoute(
                 builder: (_) => const PackerinDrawerWidget());
+
+          case PackerinDetailPage.routeName:
+            return MaterialPageRoute(
+                builder: (_) => PackerinDetailPage(
+                    destination:
+                        settings.arguments as PackerinDestinationListModel));
 
           case PackerinAboutPage.routeName:
             return MaterialPageRoute(builder: (_) => const PackerinAboutPage());

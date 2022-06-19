@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:packerin/common/style.dart';
 import 'package:packerin/data/model/packerin_destination_list_model.dart';
 import 'package:packerin/data/model/packerin_destination_model.dart';
-import 'package:packerin/presentation/widgets/packerin_card_widget.dart';
+import 'package:packerin/presentation/widgets/packerin_content_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_drawer_widget.dart';
 import 'package:packerin/presentation/widgets/packerin_header_widget.dart';
 
@@ -115,8 +115,9 @@ class _PackerinFavoritePageState extends State {
                                         parseDestination(snapshot.data!);
 
                                     return Expanded(
-                                        child: PackerinCardWidget(
-                                            destination: destination));
+                                      child: PackerinContentWidget(
+                                          destination: destination),
+                                    );
                                   } else {
                                     return Center(
                                       child: Text('Destination Not Found',
