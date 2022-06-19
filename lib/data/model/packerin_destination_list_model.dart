@@ -6,6 +6,7 @@ class PackerinDestinationListModel {
   String pictureId;
   String city;
   double rating;
+  String category;
 
   // Callback Variables
   PackerinDestinationListModel({
@@ -15,6 +16,7 @@ class PackerinDestinationListModel {
     required this.pictureId,
     required this.city,
     required this.rating,
+    required this.category,
   });
 
   // Convert Json to Local Variable
@@ -26,6 +28,7 @@ class PackerinDestinationListModel {
       pictureId: json['pictureId'],
       city: json['city'],
       rating: json['rating'].toDouble(),
+      category: json['category'],
     );
   }
 
@@ -38,6 +41,7 @@ class PackerinDestinationListModel {
       'pictureId': pictureId,
       'city': city,
       'rating': rating,
+      'category': category,
     };
   }
 }
