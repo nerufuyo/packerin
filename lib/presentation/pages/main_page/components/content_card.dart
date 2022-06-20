@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:packerin/presentation/pages/detail_page/detail_page_packerin.dart';
 
 class ContentCard extends StatelessWidget {
   const ContentCard({
@@ -12,7 +13,13 @@ class ContentCard extends StatelessWidget {
         ClipRRect(
           borderRadius: BorderRadius.circular(30),
           child: InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const DetailScreen(),
+                ),
+              );
+            },
             child: Card(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
