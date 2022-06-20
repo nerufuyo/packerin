@@ -25,7 +25,7 @@ class _PackerinDetailPageState extends State<PackerinDetailPage> {
             widget.destination.pictureId,
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
-            fit: BoxFit.fill,
+            fit: BoxFit.cover,
           ),
           Container(
             margin: const EdgeInsets.only(
