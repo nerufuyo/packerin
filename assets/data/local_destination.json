@@ -1,0 +1,364 @@
+{
+  "destination": [
+    {
+      "id": "1",
+      "name": "Candi Cangkuang",
+      "description": "Candi Cangkuang adalah salah satu Candi yang ada di Indonesia, Candi ini juga pertama kali ditemukan di Tatar Sunda serta merupakan satu-satunya Candi Hindu di Tatar Sunda. Candi ini bersebelahan dengan makam Embah Dalem Arief Muhammad, sebuah makam kuno pemuka agama Islam yang dipercaya sebagai leluhur penduduk Desa Cangkuang. Nama dari Candi ini diambil dari nama desa tempat Candi ini berada.",
+      "pictureId": "https://jernih.co/wp-content/uploads/image1_1530518801.jpg",
+      "city": "Garut, Jawa Barat",
+      "rating": 3.5,
+      "category": "Temple"
+    },
+    {
+      "id": "2",
+      "name": "Candi Cetho",
+      "description": "Candi ini bercorak agama Hindu yang diduga dibangun pada masa-masa akhir era Majapahit. Candi ini berada di lereng Gunung Lawu pada ketinggian 1496 m diatas permukaan laut. Kompleks Candi ini digunakan oleh penduduk setempat dan juga peziarah yang beragama Hindu sebagai tempat pemujaan, selain itu Candi ini juga merupakan tempat pertapaan bagi kalangan penganut kepercayaan asli Jawa atau Kejawen.",
+      "pictureId": "https://kendhil.com/wp-content/uploads/2020/10/Tiket-Masuk-Candi-Cetho-Karanganyar.jpg",
+      "city": "Karanganyar, Jawa Tengah",
+      "rating": 4.5,
+      "category": "Temple"
+    },
+    {
+      "id": "3",
+      "name": "Candi Dieng",
+      "description": "Candi Dieng adalah salah satu Candi yang ada di Indonesia dimana Candi Hindu abad ke-7 ini terletak di Dataran Tinggi Dieng. Dataran tinggi ini adalah tempat berdirinya delapan Candi Hindu kecil yang merupakan salah satu bangunan keagamaan tertua yang masih bertahan yang pernah dibangun di Jawa. Nama sebenarnya dari Candi ini, sejarah dan raja yang bertanggung jawab atas pembangunan Candi-candi ini tidak diketahui. Hal ini dikarenakan kelangkaan data dan prasasti yang terkait dengan pembangunan Candi-candi ini. Para penduduk Jawa lokal pun menamai setiap Candi sesuai dengan tokoh Wayang Jawa yang kebanyakan diambil dari epos Mahabharata.",
+      "pictureId": "https://auroraxa.com/wp-content/uploads/2021/01/Wisata-Candi-Arjuna-Dieng-Peninggalan-Kerejaan-Mataram.jpg",
+      "city": "Wonosobo, Jawa Tengah",
+      "rating": 4,
+      "category": "Temple"
+    },
+    {
+      "id": "4",
+      "name": "Candi Gedong Songo",
+      "description": "Candi Gedong Songo adalah nama sebuah kompleks bangunan Candi peninggalan Hindu yang terletak di lereng Gunung Ungaran. Di kompleks Candi ini terdapat sembilan buah Candi yang memiliki pemandangan alam yang indah. Selain itu, objek wisata ini juga dilengkapi dengan pemandian air panas dari mata air yang mengandung belerang, area perkemahan dan wisata berkuda.",
+      "pictureId": "https://asset.kompas.com/crops/Ve_tsJMbUilZ8tY7L8nyIcCjtD8=/23x0:1003x653/750x500/data/photo/2021/12/26/61c8581af190b.png",
+      "city": "Semarang, Jawa Tengah",
+      "rating": 4.5,
+      "category": "Temple"
+    },
+    {
+      "id": "5",
+      "name": "Candi Gunung Sari",
+      "description":"Candi Gunung Sari adalah salah satu Candi yang ada di Indonesia, Candi Hindu Siwa ini berada di puncak Bukit Sari yang tidak jauh dari Candi Gunung Wukir. Candi Gunung Sari ini diduga merupakan peninggalan abad ke-6 hingga ke-8 yang membuatnya menjadi Candi tertua di tanah Jawa, lebih tua dari Candi Borobudur dan Candi Prambanan.",
+      "pictureId": "https://kendhil.com/wp-content/uploads/2020/10/candi-gunung-sari-2.jpg",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.3,
+      "category": "Temple"
+    },
+    {
+      "id": "6",
+      "name": "Candi Gunung Wukir",
+      "description":"Candi ini berada di atas Bukit Wukir yang oleh masyarakat sekitar disebutGunung Wukir. Candi ini merupakan Candi tertua yang dapat dihubungkan dengan angka tahun. Berdasarkan prasasti Canggal yang ditemukan pada tahun 1879 di reruntuhan, Candi ini didirikan pada saat pemerintahan Raja Sanjaya dari zaman Kerajaan Mataram Kuno yaitu pada tahun 732 M. Bangunan Candi ini terbuat dari jenis batu andesit setidaknya terdiri dari satu Candi induk dan tiga Candi Perwara. Di kompleks Candi ini tak hanya ada prasasti saja namun juga lingga yoni dan arca lembu (Nandi).",
+      "pictureId":  "https://upload.wikimedia.org/wikipedia/commons/0/05/Gunung_Wukir_Canggal_Perwara_Temple.jpg",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.4,
+      "category": "Temple"
+    },
+    {
+      "id": "7",
+      "name": "Candi Jago",
+      "description": "Menurut kitab Negarakertagama nama Candi Jago sebenarnya berasal dari kata “Jajaghu” yang didirikan pada masa Kerajaan Singhasari pada abad ke-13. Jajaghu sendiri artinya adalah “Keagungan”. Candi ini cukup unik karena bagian atasnya hanya tersisa sebagian dan menurut cerita setempat karena tersambar petir. Di Candi ini terdapat relief-relief Kunjarakarna dan Pancatantra dan seluruh bangunan Candi ini tersusun atas bahan batu andesit.",
+      "pictureId": "https://www.pegipegi.com/travel/wp-content/uploads/2018/10/candi-jago-malang.jpg",
+      "city": "Malang, Jawa Timur",
+      "rating": 4.6,
+      "category": "Temple"
+    },
+    {
+      "id": "8",
+      "name": "Candi Prambanan",
+      "description": "Candi Prambanan atau Candi Roro Jonggrang adalah kompleks Candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti yaitu Dewa utama Hindu yaitu Brahma sebagai Dewa pencipta, Wisnu sebagai Dewa pemelihara dan Siwa sebagai Dewa pelebur. Candi ini termasuk Situs Warisan Dunia UNESCO, Candi Hindu terbesar di Indonesia sekaligus salah satu Candi terindah di Asia Tenggara. Arsitektur bangunan ini berbentuk tinggi dan ramping sesuai dengan arsitektur Hindu pada umumnya dengan Candi Siwa sebagai Candi Utama yang memiliki ketinggian mencapai 47 meter menjulang di tengaj kompleks gugusan Candi-Candi yang lebih kecil. Menurut prasasti Siwagrha, Candi ini mulai dibangun pada tahun 850 masehi oleh Rakai Pikatan dan terus dikembangkan dan diperluas oleh Balitung Maha Sambu pada masa Kerajaan Medang Mataram.",
+      "pictureId": "https://advontura.com/wp-content/uploads/2020/12/hd-wallpaper-gambar-candi-prambanan-1.jpg",
+      "city": "Sleman, Yogyakarta",
+      "rating": 4.7,
+      "category": "Temple"
+    },
+    {
+      "id": "9",
+      "name": "Candi Penataran",
+      "description": "Candi Penataran adalah salah satu Candi yang ada di Indonesia, dimana Candi ini termegah dan terluas di Jawa Timur yang terletak di lereng barat daya Gunung Kelud. Dari prasasti yang tersimpan di bagian Candi, diperkirakan Candi ini dibangun pada masa Raja Srengga dari Kerajaan Kediri sekitar tahun 1200 Masehi dan berlanjut digunakan sampai masa pemerintahan Wikramawardhana, Raja Majapahit sekitar tahun 1415. Pada kitab Desawarnana atau Nagarakertagama yang ditulis pada tahun 1365, Candi ini disebut sebagai bangunan suci “Palah” yang dikunjungi Raja Hayam Wuruk dalam perjalanan kerajaan bertamasya berkeliling Jawa Timur.",
+      "pictureId": "https://picture.triptrus.com/image/2014/06/candi-penataran-2.jpeg",
+      "city": "Blitar, Jawa Timur",
+      "rating": 4.5,
+      "category": "Temple"
+    },
+    {
+      "id": "10",
+      "name": "Candi Sukuh",
+      "description": "Candi Sukuh adalah sebuah kompleks Candi Hindu yang ada di Indonesia. Candi ini memiliki bentuk yang kurang lazim karena penggambaran alat-alat kelamin manusia secara eksplisit pada beberapa figurnya. Bangunan Candi Sukuh ini memberikan kesan keserhanaan yang mencolok pada para pengunjung. Kesan yang didapatkan dari Candi ini sungguh berbeda dengan Candi-candi besar di Jawa Tengah lainnya. Bentuk bangunan Candi Sukuh cenderung mirip dengan peninggalan budaya Maya di Meskiko atau peninggalan budaya Inca di Peru.",
+      "pictureId":"https://museumnusantara.com/wp-content/uploads/2020/06/candi-sukuh-oleh-museum-nusantara.jpg",
+      "city": "Karanganyar, Jawa Tengah",
+      "rating": 4.6,
+      "category": "Temple"
+    },
+    {
+      "id": "11",
+      "name": "Candi Borobudur",
+      "description": "Candi Borobudur adalah salah satu Candi yang ada di Indonesia, dimana Candi ini berbentuk stupa yang didirikan oleh para penganut agama Budha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan Wangsa Syailendra. Candi Borobudur ini menjadi Candi Budha terbesar di dunia dan salah satu monumen Budha terbesar di dunia. Candi ini terdiri dari enam teras berbentuk bujur sangkar yang diatasnya terdapat tiga pelataran melingkar pada dindingnya dihiasi dengan 2.672 panel relief dan aslinya terdapat 504 arca Budha. Candi Borobudur ini memiliki koleksi relief Budha terlengkap dan terbanyak di dunia.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ef/47/1c/borobudur-temple.jpg?w=1200&h=-1&s=1",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.7,
+      "category": "Temple"
+    },
+    {
+      "id": "12",
+      "name": "Candi Brahu",
+      "description": "Candi satu ini terletak di dalam kawasan situs arkeologi Trowulan, bekas ibu kota Majapahit. Nama Candi ini yaitu “Brahu” yang diduga berasal dari kata wanaru atau warahu. Nama ini didapat dari sebutan sebuah bangunan suci yang disebut dalam Prasasti Alasantan. Candi Brahu ini dibangun dengan batu bata merah menghadao ke arah barat dan berukuran panjang sekitar 22,5 m dengan lebar 18 m dan berketinggian 20 meter.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/29/04/2b/eyeemfiltered1451116519411.jpg?w=1200&h=-1&s=1",
+      "city": "Mojokerto, Jawa Timur",
+      "rating": 4.6,
+      "category": "Temple"
+    },
+    {
+      "id": "13",
+      "name": "Candi Banyunibo",
+      "description": "Candi Banyunibo ini berada tidak jauh dari Candi Ratu Boko, Candi ini dibangun sekitar abad ke-9 pada zaman Kerajaan Mataram Kuno. Pada bagian atas Candi ini terdapat sebuah stupa yang merupakan ciri khas agama Budha. Candi ini termasuk bangunan suci Budha yang cukup kaya akan hiasan, hampir setiap bagian Candi diisi dengan berbagai macam hiasan dan relief.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/49/88/13/img-20171102-120504-largejpg.jpg?w=1200&h=1200&s=1",
+      "city": "Sleman, Yogyakarta",
+      "rating": 4.5,
+      "category": "Temple"
+    },
+    {
+      "id": "14",
+      "name": "Candi Bahal",
+      "description": "Candi Bahal adalah kompleks Candi Budha aliran Vajrayana, Candi ini terbuat dari bahan batu bata merah dan diduga berasal dari abad ke-11. Candi ini memiliki tiga bangunan kuno yaitu Biaro Bahal I, II dan III. Bangunan Candi ini saling berhubungan dan terdiri dalam satu garis yang lurus.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Candi_Bahal_1.JPG/1200px-Candi_Bahal_1.JPG",
+      "city": "Padang Lawas, Sumatera Utara",
+      "rating": 4.4,
+      "category": "Temple"
+    },
+    {
+      "id": "15",
+      "name": "Candi Jabung",
+      "description":"Candi Jabung adalah salah satu Candi yang ada di Indonesia, Candi Hindu ini merupakan peninggalan Kerajaan Majapahit. Struktur bangunan Candi ini hanya dari bata merah yang mampu bertahan ratusan tahun. Arsitektur bangunan Candi ini hampir sama dengan Candi Bahal yang ada di Bahal, Sumatra Utara. Candi Jabung ini berdiri di sebidang tanah berukuran 35 meter x 40 meter, pemugaran secara fisik pada tahun 1983 – 1987. Penataan lingkungan luasnya bertambah 20,042 meter persegi dan terletak pada ketinggian 8 meter di atas permukaan air laut. Candi ini terdiri dari dua bangunan utama yang terdiri dari satu bangunan besar dan satu bangunan kecil yang biasa disebut Candi Sudut.",
+      "pictureId": "https://kendhil.com/wp-content/uploads/2020/10/candi-peninggalan-kerajaan-majapahit-candi-jabung.jpg",
+      "city": "Probolinggo, Jawa Timur",
+      "rating": 4.4,
+      "category": "Temple"
+    },
+    {
+      "id": "16",
+      "name": "Candi Kalasan",
+      "description":"Candi Kalasan adalah sebuah bangunan Cagar Budaya yang dikategorikan sebagai Candi Budha. Candi ini memiliki 52 stupa dan berada di sisi selatan jalan raya antara Yogyakarta dan Solo. Pada awalnya hanya Candi Kalasan ini yang ditemukan pada kawasan situs ini, namun setelah digali lebih dalam ditemukan lebih banyak lagi bangunan-bangunan pendukung di sekitar Candi ini. Selain Candi Kalasan dan bangunan-bangunan pendukung lainnya ada juga tiga buah Candi kecil di luar bangunan Candi Utama berupa stupa.",
+      "pictureId":  "https://www.alodiatour.com/wp-content/uploads/2018/11/lokasi-candi-kalasan.jpg",
+      "city": "Slema, Yogyakarta",
+      "rating": 4.5,
+      "category": "Temple"
+    },
+    {
+      "id": "17",
+      "name": "Candi Mendut",
+      "description": "Candi Mendut adalah Candi bercorak Budha yang didirikan semasa pemerintahan Raja Indra dari dinasti Syailendra. Bahan bangunan Candi ini sebenarnya adalah batu bata yang ditutupi dengan batu alam. Bangunan ini terletak pada sebuah basement yang tinggi sehingga tampak lebih anggun dan kokoh. Tangga naik dan pintu masuk menghadap ke barat daya. Di atas basement terdapat lorong yang mengelilingi tubuh Candi, atapnya bertingkat tiga dan dihiasi dengan stupa-stupa kecil berjumlah 48 buah.",
+      "pictureId": "http://2.bp.blogspot.com/-1JS7_dnje1I/Vlo6Ul9hnHI/AAAAAAAAFF8/WER3wk8wzBI/s1600/Candi%2BMendut%2B1.JPG",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.6,
+      "category": "Temple"
+    },
+    {
+      "id": "18",
+      "name": "Candi Muara Takus",
+      "description": "Candi Muara Takus adalah salah satu Candi yang ada di Indonesia, Candi ini dikelilingi dengan tembok berukuran 74 x 74 meter yang terbuat dari batu putih dengan tinggi tembok sekitar 80 cm. Di luar areanya juga terdapat tembok tanah berukuran 1,5 x 1,5 kilometer. Di dalam kompleks ini terdapat beberapa bangunan Candi yang disebut dengan Candi Sulung/Tua, Candi Bungsi, Mahligai Stupa dan Palangka. Pada tahun 2009, Candi Muara Takus dicalonkan untuk menjadi salah satu Situs Warisan Dunia UNESCO.",
+      "pictureId": "https://anekatempatwisata.com/wp-content/uploads/2021/04/1-Candi-Muara-Takus.jpg",
+      "city": "Kampar, Riau",
+      "rating": 4.3,
+      "category": "Temple"
+    },
+    {
+      "id": "19",
+      "name": "Candi Pawon",
+      "description": "Candi Pawon adalah sebuah Candi yang berada dianatar Candi Mendut dan Candi Borobudur. Di dalam bilik Canci ini sudah tidak ditemukan lagi arca sehingga sulit mengidentifikasikannya lebih jauh. Hal yang menarik dari Candi Pawon ini adalah ragam hiasnya. Dinding-dinding luar candi dihias dengan relief pohon hayati (kalpataru) yang diapit pundi-pundi dan kinara-kinari.",
+      "pictureId": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/93/51/f1/candi-pawon.jpg?w=1200&h=1200&s=1",
+      "city": "Magelang, Jawa Tengah",
+      "rating": 4.4,
+      "category": "Temple"
+    },
+    {
+      "id": "20",
+      "name": "Candi Sewu",
+      "description": "Candi Sewu adalah Candi Budha yang dibangun pada abad ke-8, Candi Sewu ini menjadi kompleks Candi Budha terbesar kedua setelah Candi Borobudur. Candi ini berusia lebih tua daripada Candi Borobudur dan Candi Prambanan. Meskipun aslinya memiliki 249 Candi oleh masyarakat setempat Candi ini dinamakan Sewu yang berarti seribu dalam bahasa Jawa. Penamaan ini berdasarkan kisah legenda Loro Jonggrang.",
+      "pictureId":"https://www.hargatiket.net/wp-content/uploads/2019/11/Candi-Sewu.jpg",
+      "city": "Sleman, Yogyakarta",
+      "rating": 4.6,
+      "category": "Temple"
+    },
+    {
+      "id": "21",
+      "name": "Bali",
+      "description": "Tempat wisata di Indonesia yang mendunia yang pertama tidak lain adalah Bali. Sudah ratusan penghargaan yang didapatkan Bali sebagai destinasi wisata terbaik dan favorit dari kancah internasional. Baru-baru ini, Bali masuk kedalam Top 4 Travelers’ Choice Awards 2022 Most Popular Destinations dari Tripadvisor. Berbicara mengenai Bali memang tidak ada habisnya. Selalu ada tempat wisata yang baru setiap tahunnya. Dari wisata alam hingga budaya, Bali memilikinya semua. Beberapa ikon wisata Bali yang terkenal yaitu Tanah Lot, Seminyak, Pura Luhur Uluwatu, Ubud, Danau Bedugul, dan masih banyak lagi.",
+      "pictureId": "https://d3p0bla3numw14.cloudfront.net/news-content/img/2021/05/03112735/Tempat-Tinggal-Terbaik-di-Bali.jpg",
+      "city": "Bali",
+      "rating": 4.7,
+      "category": "City"
+    },
+    {
+      "id": "22",
+      "name": "Taman Nasional Komodo",
+      "description": "Taman Nasional Komodo. Sesuai dengan namanya, pulau ini merupakan habitat kadal purba raksasa Komodo yang hanya bisa ditemukan di Indonesia. Pulau Komodo terdiri dari tiga pulau utama yaitu Pulau Komodo, Pulau Rinca, dan Pulau Padar. Taman Nasional Komodo terletak di ujung paling barat provinsi Nusa Tenggara Timur. Tidak hanya dapat menyaksikan hewan prasejarah Komodo saja, terdapat beberapa destinasi wisata lainnya di Kawasan Taman Nasional Komodo yang menarik untuk dikunjungi. Antara lain Labuan Bajo, Pink Beach, Wisata Budaya Kampung Melo, dan snorkeling di Pulau Manjarite. Di Labuan Bajo, terdapat salah satu resort terkenal yang didesain mirip seperti Santorini, Yunani. Selain itu, Anda dapat melakukan trip menggunakan cruise untuk menikmati keindahan jajaran Kepulauan Komodo dari atas laut.",
+      "pictureId": "https://www.gotravelaindonesia.com/wp-content/uploads/Taman-Nasional-Pulau-Komodo-2.jpg",
+      "city": "Kepulauan Nusa Tenggara",
+      "rating": 4.7,
+      "category": "City"
+    },
+    {
+      "id": "23",
+      "name": "Taman Nasional Bunaken",
+      "description": "Tempat wisata di Indonesia yang satu ini menyajikan keindahan biota lautnya yang sungguh menakjubkan. Yap, Taman Nasional Bunaken yang terletak di provinsi Sulawesi Utara. Sama seperti Bali, Taman Nasional Bunaken sudah lama menjadi primadona wisata Indonesia. Diresmikan sejak tahun 1991, Kawasan Taman Nasional Bunaken memiliki luas mencapai 89.065 hektare. Kawasan ini meliputi lima pulau utama yaitu Pulau Bunaken, Pulau Manado Tua, Pulau Naen, Pulau Mantehage, dan Pulau Siladen.",
+      "pictureId": "https://campatour.com/wp-content/uploads/2019/01/IMG-20190204-WA0056-1080x530.jpg",
+      "city": "Sulawesi Utara",
+      "rating": 4.6,
+      "category": "City"
+    },
+    {
+      "id": "24",
+      "name": "Raja Ampat",
+      "description": "Raja Ampat merupakan salah satu Kawasan 10 Bali Baru yang dicanangkan pemerintah Indonesia sejak tahun 2015. Tujuan didirikan 10 Bali Baru tidak lain untuk memeratakan potensi wisata yang ada Indonesia yang tidak hanya berpusat di Bali saja. Pemilihan Raja Ampat sebagai destinasi 10 Bali Baru memang tidak salah. Permata dari Timur adalah julukan yang tepat untuk Kawasan wisata Raja Ampat. Bagaimana tidak, Anda akan disajikan oleh beningnya air laut dan pantai pasir putih yang masih alami. Saking bersihnya udara di Kawasan Raja Ampat, Anda dapat menyaksikan hamparan bintang yang terang bersinar pada malam hari.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/8/88/Raja_Ampat%2C_Mutiara_Indah_di_Timur_Indonesia.jpg",
+      "city": "Papua Barat",
+      "rating": 4.4,
+      "category": "City"
+    },
+    {
+      "id": "25",
+      "name": "Gili Trawangan",
+      "description":"Gili Trawangan! Gili Trawangan terletak di Lombok bagian barat berdekatan dengan Pulau Bali. Gili Trawangan telah menjadi primadona pariwisata Lombok sejak lama. Aktivitas yang dapat Anda lakukan di Gili Trawangan yaitu snorkeling, menyelam di habitat Hiu, menaiki delman khas Lombok, atau hanya menikmati indahnya pantai sah-sah saja. Jangan lupa menikmati kuliner khas plencing kangkung dan Nasi Balapnya ya!",
+      "pictureId": "https://padiumkm.id/public/products/16874/77638/3-tempat-kuline.1609998969.jpg",
+      "city": "Lombok",
+      "rating": 4,
+      "category": "City"
+    },
+    {
+      "id": "26",
+      "name": "Derawan",
+      "description":"Tempat wisata di Indonesia kali ini letaknya di ujung utara Indonesia tepatnya di Kabupaten Berau, provinsi Kalimantan Timur. Destinasi wisata tersebut bernama Kepulauan Derawan. Daya tarik utama Kepulauan Derawan ini tentunya sajian pantai pasir putih yang luas dan taman bawah lautnya. Terdapat empat pulau utama dari gugusan pulau Derawan yaitu Pulau Maratua, Pulau Derawan, Pulau Sangalaki, dan Pulau Kakaban. Di Pulau Maratua, Anda dapat menyaksikan keindahan birunya laut, melakukan diving dan snorkeling, serta menelusuri Gua Halo Tabung. Sementara itu, di Pulau Kakaban Anda dapat berenang bersama ubur-ubur yang tidak menyengat, tepatnya di Danau Air Payau! Yang tidak kalah menarik, Pulau Derawan memiliki destinasi wisata Danau Labuan Cermin. Dari namanya, pasti Anda sudah dapat menebak karena airnya sangat jernih yang bahkan dapat digunakan untuk bercermin. Menarik bukan?",
+      "pictureId":  "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/03/23/93cc7b42-d800-43cf-851d-626d22c6e1ff-1616482194682-44bb2672bba797bc7a6de73c7ea86508.jpg",
+      "city": "Kalimantan Timur",
+      "rating": 4.7,
+      "category": "City"
+    },
+    {
+      "id": "27",
+      "name": "Wakatobi",
+      "description": "Kepulauan Wakatobi, Provinsi Sulawesi Tenggara. 750 dari 820 jenis karang di dunia dapat ditemukan di Wakatobi, lho! Karena potensi tersebut, pantaslah Wakatobi ditetapkan sebagai Cagar Biosfer Bumi Ke-8 di Indonesia oleh UNESCO pada tahun 2012. Kepulauan Wakatobi terbagi menjadi empat pulau utama yaitu Pulau Binongko, Pulau Tomia, Pulau Kaledupa, dan Pulau Wangi-wangi. Layaknya di Pantai Lovina, Bali, jika Anda berkunjung ke Pulau Wangi-wangi tepatnya di Pulau Kapota, Anda dapat menyaksikan atraksi dari puluhan lumba-lumba yang berenang dengan cantiknya di perairan tersebut. Tidak lupa untuk mencicipi kuliner lokal Wakatobi ya, Sobat PACKERIN. Adalah Kasuami yang merupakan tumpeng berbahan dasar singkong dan memiliki warna putih kekuningan. Lengkap rasanya bila disandingkan dengan santapan ikan bakar dan sambal colo-colo.",
+      "pictureId": "https://www.jd.id/news/wp-content/uploads/2021/10/wakatobi_1193354869.jpeg",
+      "city": "Sulawesi Tenggara",
+      "rating": 4.4,
+      "category": "City"
+    },
+    {
+      "id": "28",
+      "name": "Bukit Warinding, Waingapu",
+      "description": "Bukit Warinding harus menjadi to-do-list wajib Anda ketika mengunjungi Pulau Sumba, Nusa Tenggara Timur. Tempat wisata di Indonesia yang satu ini berbeda dengan yang lainnya. Karena Bukit Warinding menyajikan pemandangan bukit yang sungguh magis! Warna bukit akan berbeda seiring dengan bergantinya musim. Jika musim kemarau, warnanya akan menjadi semi coklat. Sementara, jika musim hujan tiba akan berubah menjadi hijau menyegarkan.",
+      "pictureId": "https://tripsumba.com/wp-content/uploads/2020/07/Wangaipu-Bukit-Warinding-Sumber-Jelajah-Nusae.jpg",
+      "city": "Nusa Tenggara Timur",
+      "rating": 4.7,
+      "category": "City"
+    },
+    {
+      "id": "29",
+      "name": "Pulau Tanjung Pandan",
+      "description": "Apakah Anda ingat dengan pantai yang memiliki komposisi bebatuan yang cantik dalam film Laskar Pelangi? Yap, Pulau Tanjung Pandan adalah tempatnya. Kesuksesan film Laskar Pelangi menimbulkan efek positif bagi pariwisata Provinsi Bangka Belitung khususnya. Sepanjang Pulau Tanjung Pandan terdapat beberapa pantai yang memiliki kontur bebatuan seperti Pantai Tanjung Tinggi dan Pantai Penyabong. Tidak jauh dari Pulau Tanjung Pandan, terdapat Pulau Lengkuas yang tidak kalah cantiknya dan menawarkan pemandangan laut biru lepas dengan pasir putih yang halus. Masih di Pulau Lengkuas, juga terdapat Mercusuar bekas peninggalan pemerintahan Belanda pada tahun 1882. Meskipun sudah berumur tua, mercusuar tersebut masih dapat digunakan dengan baik. Datanglah ke Pulau Lengkuas diantara bulan Maret hingga November, karena cuaca sedang baik dan memiliki ombak yang cenderung tenang.",
+      "pictureId": "https://traverse.id/wp-content/uploads/2018/01/Pandan-@himsaifanah.jpg",
+      "city": "Bangka Belitung",
+      "rating": 4.5,
+      "category": "City"
+    },
+    {
+      "id": "30",
+      "name": "Lombok Mandalika",
+      "description": "Nah, ini dia tempat wisata yang sedang naik daun belakangan ini. Yap betul, Kawasan Lombok Mandalika, Nusa Tenggara Barat. Seperti yang Anda ketahui, Indonesia telah memiliki sirkuit MotoGP bertaraf Internasional di Kawasan Lombok Mandalika. Kawasan ini juga merupakan destinasi 10 Bali Baru dan Kawasan Ekonomi Khusus (KEK) yang diharapkan dapat menjadi sumber pendapatan utama Indonesia dari sektor pariwisata. Selain sirkuit MotoGP yang memiliki pemandangan pantai yang indah, Kawasan Lombok Mandalika juga menyajikan wisata budaya melalui Desa Sade dan Desa Ende. Di kedua desa tersebut, Anda dapat menyaksikan proses pembuatan kain tenun songket yang bernilai jutaan rupiah dan penampilan tarian adat yang menarik dan menghibur. Perut lapar setelah travelling seharian? Anda patut mencoba kuliner khas Lombok yang menggugah selera yaitu Ayam Taliwang dan Sate Bulayak.",
+      "pictureId":"https://wahananews.co/photo/berita/dir092021/1632131109_a86b7ebc3593b834c33d.jpg",
+      "city": "Nusa Tenggara Barat",
+      "rating": 4.6,
+      "category": "City"
+    },
+    {
+      "id": "31",
+      "name": "Taman Nasional Bromo Tengger Semeru",
+      "description": "Indonesia memiliki wisata gunung yang tak kalah menariknya. Adalah Taman Nasional Bromo Tengger Semeru (TNBTS) yang terletak di provinsi Jawa Timur. Kawasan Taman Nasional Bromo Tengger Semeru merupakan tempat bertemunya enam gunung berapi yaitu Gunung Semeru, Gunung Bromo, Gunung Batok, Gunung Kursi, Gunung Watangan, dan Gunung Widodaren. Namun, dari keenam gunung berapi tersebut, Gunung Semeru dan Gunung Bromo lah yang masih aktif. Daya tarik yang dimiliki Kawasan TNBTS ini adalah hamparan pasir hitam yang membentang luas sepanjang 10 km, menyaksikan matahari terbit, dan tentunya keanekaragaman flora dan faunanya. Terdapat kurang lebih 38 jenis satwa liar yang dilindungi oleh pemerintah di Kawasan TNBTS ini diantaranya Elang Jawa, Macan Tutul Jawa, dan Lutung Jawa. Jika Anda menyukai mendaki gunung, tentunya tempat wisata di Indonesia yang satu ini sangatlah cocok bagi Anda!",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_Beauty_of_Bromo_Mountains.jpg",
+      "city": "Jawa Timur",
+      "rating": 4.8,
+      "category": "City"
+    },
+    {
+      "id": "32",
+      "name": "Gunung Rinjani",
+      "description": "Provinsi Nusa Tenggara Barat rupanya tidak hanya menyajikan keindahan pantainya saja, melainkan wisata alam gunung juga dapat ditemui! Yap, jika Anda menyukai pendakian gunung, berkunjunglah ke Gunung Rinjani yang merupakan gunung tertinggi keenam di Indonesia. Dari keatasan, Anda dapat memandangi birunya lautan, persawahan yang tertata dengan rapi, serta semburat awan yang indah. Pada ketinggian 2.000 mdpl, Anda dapat menemukan Danau Segara Anak yang juga menjadi spot favorit pendaki untuk singgah. Banyak juga lho pendaki yang memancing di Danau Segara Anak ini, karena didalamnya terdapat Ikan Mas dan Mujair.",
+      "pictureId": "https://cdn0-production-images-kly.akamaized.net/SThgojesidJM61qgD4ByaeUK7gk=/0x0:960x541/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2856425/original/065394900_1563418788-rinjani.jpg",
+      "city": "Nusa Tenggara Barat",
+      "rating": 4.5,
+      "category": "City"
+    },
+    {
+      "id": "33",
+      "name": "Danau Toba",
+      "description": "Indonesia memiliki salah satu danau vulkanik terbesar di dunia. Ialah Danau Toba. Terbentuknya Danau Toba diperkirakan berasal dari letusan dahsyat gunung berapi Toba yang terjadi sekitar 74.000 tahun yang lalu. Dari letusan tersebut, terbentuklah kawah seluas 1.145 km2 dan mempunyai kedalaman 450 meter yang saat ini bernama Danau Toba. Di tengah Danau Toba terdapat pulau berpenghuni yaitu Pulau Samosir yang juga menjadi daya tarik utamanya. Danau Toba juga merupakan salah satu tempat wisata di Indonesia yang memiliki histori dan mitos yang kental. Salah satunya yaitu mengenai mitos Ikan Mas yang menjadi penghuni danau selama ratusan tahun. Konon Ikan Mas ini berukuran 5 hingga 8 meter dan tidak boleh ada yang menangkapnya. Jika kedapatan menangkapnya, penduduk setempat percaya akan muncul bencana yang datang menghampirinya.",
+      "pictureId": "https://www.adira.co.id/sahabatlokal/img/frontend/news/danautobapng.png",
+      "city": "Sumatera Utara",
+      "rating": 4.6,
+      "category": "City"
+    },
+    {
+      "id": "34",
+      "name": "Pulau Morotai",
+      "description": "Tempat wisata di Indonesia kali ini datang dari Kepulauan Maluku Utara. Pulau Morotai merupakan pulau yang bersejarah bagi Indonesia. Karena di Pulau Morotai didirikan Monumen Trikora yang berisi perjuangan tentara Indonesia dalam membebaskan Irian Barat pada masanya. Selain itu, ternyata Pulau Morotai menjadi basis militer Perang Dunia Ke II lho, saat terjadinya pertempuran antara Amerika Serikat melawan Jepang. Sehingga, banyak ditemukan benda bersejarah peninggalan Perang Dunia Ke II di Pulau Morotai, yang kini diabadikan dalam Museum Perang Dunia Ke II.",
+      "pictureId": "https://www.jababekamorotai.com/wp-content/uploads/2019/08/1-1024x576.jpg",
+      "city": "Maluku Utara",
+      "rating": 4.4,
+      "category": "City"
+    },
+    {
+      "id": "35",
+      "name": "Kawah Ijen",
+      "description":"Berdekatan dengan Bali, provinsi Jawa Timur juga memiliki destinasi wisata yang tak kalah menakjubkan. Terletak di Kabupaten Banyuwangi, terdapat kawah belerang dengan diameter 700 m dan luas 5.466 hektar yang bernama Kawah Ijen. Kawah Ijen memiliki tingkat keasaman hingga titik nol, sehingga dapat melarutkan dengan mudahnya benda apa saja yang masuk kedalamnya. Karena tingkat keasaman yang dimilikinya berbaur dengan pancaran sinar matahari, membuat warna kawah ijen menjadi berwarna hijau tosca yang sangat cantik. Menikmati pemandangan matahari terbit dari Kawah Ijen juga merupakan salah satu yang terbaik. Datanglah pada bulan Agustus, karena matahari akan terlihat lebih jelas. Dan yang tidak boleh luput dari list tentunya fenomena api biru Kawah Ijen! Karena di dunia, fenomena api biru hanya dapat ditemukan di Indonesia dan Islandia saja. Fenomena api biru terjadi karena pertemuan antara zat belerang yang menguap di udara dengan oksigen. Fenomena unik tersebut dapat disaksikan mulai dari dini hari mulai pukul 01.00 hingga 05.00. Datanglah diantara bulan Juli hingga September, karena api biru akan terlihat lebih jelas dan besar.",
+      "pictureId": "https://theworldtravelguy.com/wp-content/uploads/2021/07/DJI_0126_1200.jpg",
+      "city": "Jawa Timur",
+      "rating": 4.7,
+      "category": "City"
+    },
+    {
+      "id": "36",
+      "name": "Ngarai Sianok",
+      "description":"Tempat wisata di Indonesia yang satu ini menyajikan panorama tebing-tebing tinggi nan cantik diiringi dengan gemuruh aliran sungai yang menyegarkan. Terletak di Bukittinggi, provinsi Sumatera Barat, Ia adalah Panorama Ngarai Sianok. Ngarai Sianok membentang sejauh 15 km dengan kedalaman tebing mencapai 100 m dan lebar celah hingga 200 m. Selain berfoto ria, aktivitas yang dapat dilakukan di area Ngarai Sianok yaitu trekking, bersepeda, atau hanya sekedar berjalan kaki santai tentu tidak menjadi masalah. Karena udara yang disajikan sungguh sejuk dan bersih, Ngarai Sianok adalah tempat yang cocok untuk melepaskan penat dan mengembalikan energi Anda kembali.",
+      "pictureId":  "https://cdn.nativeindonesia.com/foto/ngarai-sianok/Ngarai-Sianok.jpg",
+      "city": "Sumatera Barat",
+      "rating": 4.6,
+      "category": "City"
+    },
+    {
+      "id": "37",
+      "name": "Danau Tiga Warna",
+      "description": "Danau tiga warna atau juga dikenal dengan Danau Kelimutu terletak di Kabupaten Ende, Provinsi Nusa Tenggara Timur. Ketiga danau tersebut memiliki warna yang berbeda dan terletak dipuncak Gunung Kelimutu dengan ketinggian 1.690 mdpl. Dengan potensi wisata alam yang dimilikinya, membuat Gunung Kelimut adalah satu-satunya gunung di Indonesia yang memiliki kawah dengan tiga warna yang berbeda. Danau tersebut ada yang berwarna biru kehitaman, hijau tosca, dan hitam kecoklatan. Danau dengan warna biru kehitaman berwarna Tiwu Ata Mbupu, danau dengan warna hijau tosca bernama Tiwu Nuwa Muri Koo, dan danau berwarna hitam kecoklatan berwarna Tiwu Ata Polo. Atas keunikannya tersebut, pemerintah Indonesia sempat menjadikannya ornamen dalam mata uang rupiah pecahan 5.000 yang terbit pada tahun 1992. Namun, dibalik keindahannya, Danau Kelimutu tidak dapat dijadikan tempat berenang ya Sobat PACKERIN, karena berisi air yang sangat panas dan mengandung zat belerang yang berbahaya.",
+      "pictureId": "https://www.pinterpandai.com/wp-content/uploads/2017/09/Danau-Kelimutu.jpg",
+      "city": "Kabupaten Ende, Provinsi Nusa Tenggara Timur",
+      "rating": 4.5,
+      "category": "City"
+    },
+    {
+      "id": "38",
+      "name": "Tana Toraja",
+      "description": "Beralih ke tanah Sulawesi, tepatnya di provinsi Sulawesi Selatan. Tempat wisata di Indonesia yang satu ini terkenal dengan budayanya yang unik dan memiliki nuansa magis yang kental. Tepatnya di Tana Toraja, 329 km dari Kota Makassar, Ibukota Provinsi Sulawesi Selatan. Daya tarik utama Tana Toraja yaitu terletak pada tradisi pemakaman yang ditempatkan pada tebing batu Goa Landa. Selain disemayamkan pada tebing batu, tana toraja memiliki tradisi pemakaman unik lainnya seperti kuburan gantung, kuburan batu liang, kuburan pohon passiliran, dan kuburan pattane.",
+      "pictureId": "https://www.indoglobaltours.com/wp-content/uploads/2019/09/toraja-ricebarns.jpg",
+      "city": "Sulawesi Selatan",
+      "rating": 4.5,
+      "category": "City"
+    },
+    {
+      "id": "39",
+      "name": "Yogyakarta",
+      "description": "“Jogja Istimewa” adalah slogan yang dimiliki oleh Kota Yogyakarta. Memang benar adanya, istimewa merepresentasikan keunikan dan kehangatan budaya yang dimilikinya. Jalan Malioboro, Museum Ullen Sentalu, Tebing Breksi, adalah secuil destinasi wisata yang dimiliki Yogyakarta. Selain menawarkan destinasi yang menarik, Yogyakarta merupakan salah satu tempat wisata di Indonesia yang unggul dalam hal kuliner. Adakah Sobat PACKERIN disini yang menyukai gudeg dan bakpia? Atau pernahkah Anda mencoba Kopi Jos yang disajikan dengan arang di pinggirian Jalan Maliboro dan oseng merconnya? Semuanya yang autentik hanya ada di Yogyakarta.",
+      "pictureId": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/04/17/6dc3580a-9575-40dd-9a27-3a35956856ff-1618594374684-63d07b695cbdd15bf4bb8b4a4766062c.jpg",
+      "city": "Yogyakarta",
+      "rating": 4.6,
+      "category": "City"
+    },
+    {
+      "id": "40",
+      "name": "Kebun Raya Cibodas",
+      "description": "Kebun Raya Cibodas merupakan salah satu tempat wisata di Bogor yang sangat luas. Luas lahannya bahkan mencapai 80 hektar. Kebun Raya Cibodas masuk dalam area Kompleks Hutan Gunung Gede Pangrango, yang beralamat di Desa Cimacan, Kecamatan Cipanas, Kabupaten Cianjur. Lokasinya tepat dibawah kaki gunung Gede Pangrango. Suhu nya cukup sejuk, berkisar 17-27 derajat celcius. Beberapa tempat yang banyak menarik minat diantaranya adalah rumah kaca atau green house, Jalan Araucaria, Kebun bunga sakura, dan Air Terjun Cibodas. Dalam landscape alam seluas 80 hektar, anda bisa berseneng-senang dengan puas disini.",
+      "pictureId":"https://www.dakatour.com/wp-content/uploads/2016/09/alamat-taman-sakura-kebun-raya-cibodas.jpg",
+      "city": "Jawa Barat",
+      "rating": 4.6,
+      "category": "City"
+    }
+  ]
+}

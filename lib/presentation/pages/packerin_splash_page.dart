@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:packerin/common/style.dart';
-import 'package:packerin/presentation/pages/main_page/packerin_main_page.dart';
+import 'package:packerin/presentation/pages/packerin_home_page.dart';
 
 class PackerinSplashPage extends StatefulWidget {
   static const routeName = '/splash_screen';
@@ -25,7 +25,7 @@ class _PackerinSplashPageState extends State<PackerinSplashPage> {
   }
 
   void navigationRoute() {
-    Navigator.pushReplacementNamed(context, PackerinMainPage.routeName);
+    Navigator.pushReplacementNamed(context, PackerinHomePage.routeName);
   }
 
   @override
@@ -37,7 +37,7 @@ class _PackerinSplashPageState extends State<PackerinSplashPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/logo.png',
+              'assets/images/logo.png',
               width: 150,
             ),
             const SizedBox(
