@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:packerin/data/model/packerin_destination_list_model.dart';
+import 'package:packerin/presentation/widgets/packerin_favorite_button.dart';
 
 class PackerinCardWidget extends StatelessWidget {
   const PackerinCardWidget({
@@ -45,14 +46,22 @@ class PackerinCardWidget extends StatelessWidget {
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(15),
-                        child: Hero(
-                          tag: destination[index].id,
-                          child: Image.network(
-                            destination[index].pictureId,
-                            width: 330,
-                            height: 340,
-                            fit: BoxFit.cover,
-                          ),
+                        child: Stack(
+                          children: [
+                            Hero(
+                              tag: destination[index].id,
+                              child: Image.network(
+                                destination[index].pictureId,
+                                width: 330,
+                                height: 340,
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                            const Positioned(
+                              right: 0.0,
+                              child: FavoriteButton(),
+                            ),
+                          ],
                         ),
                       ),
                       const SizedBox(

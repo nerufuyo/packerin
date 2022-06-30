@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:packerin/common/style.dart';
 import 'package:packerin/data/model/packerin_destination_list_model.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:packerin/presentation/widgets/packerin_favorite_button.dart';
 
 class PackerinDetailPage extends StatefulWidget {
   static const routeName = '/packerin-detail-page';
@@ -120,18 +121,24 @@ class _PackerinDetailPageState extends State<PackerinDetailPage> {
             ),
           ),
           SafeArea(
-            child: Padding(
-              padding: const EdgeInsets.all(10),
-              child: GestureDetector(
-                onTap: () {
-                  Navigator.pop(context);
-                },
-                child: const Icon(
-                  Icons.arrow_back_ios_new_rounded,
-                  color: Colors.red,
-                  size: 30,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(10),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                    child: const Icon(
+                      Icons.arrow_back_ios_new_rounded,
+                      color: Colors.red,
+                      size: 30,
+                    ),
+                  ),
                 ),
-              ),
+                const FavoriteButton(),
+              ],
             ),
           ),
         ],
